@@ -288,7 +288,7 @@
                 SMK Riyadhul Ulum
             </a>
             <ul class="nav-menu">
-                <li><a href="index.php"><i class="fa-solid fa-chart-pie"></i> Dashboard</a></li>
+                <li><a href="dashbord.php"><i class="fa-solid fa-chart-pie"></i> Dashboard</a></li>
                 <li><a href="profil.php" class="active"><i class="fa-solid fa-user-plus"></i> Profil</a></li>
                 <li><a href="index.php" class="btn-logout">Keluar</a></li>
             </ul>

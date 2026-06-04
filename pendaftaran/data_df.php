@@ -343,13 +343,13 @@ input[readonly] {
 
     <nav class="navbar">
         <div class="nav-container">
-            <h3><i class="fa-solid fa-folder-open"></i> Data Pendaftaran Siswa</h3>
+            <h3><i class="fa-solid fa-folder-open"></i> Data SPMB Siswa</h3>
             <a href="../user/data_user.php" class="logout-btn"><i class="fa-solid fa-arrow-left"></i> Return</a>
         </div>
     </nav>
 
     <div class="container">
-        <h1><i class="fa-solid fa-users"></i> Data Calon Siswa Baru</h1>
+        <h1><i class="fa-solid fa-users"></i> Data SPMB  Baru</h1>
 
         <a href="tambah_df.php" class="btn-tambah"><i class="fa-solid fa-plus"></i> Tambah Data</a>
 

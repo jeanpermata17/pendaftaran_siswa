@@ -219,7 +219,7 @@ include '../koneksi.php';
     <div class="navbar">
         <h3>👋 Welcome, <?= htmlspecialchars($_SESSION['user']); ?></h3>
         <div class="right">
-            <a href="../pendaftaran/data_df.php" class="data-uang">📈 Data daftar</a>
+            <a href="../pendaftaran/data_df.php" class="data-uang">📈 Data SPMB</a>
             <a href="../logout.php" class="logout-btn">🚪 Logout</a>
         </div>
     </div>

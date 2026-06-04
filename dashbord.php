@@ -32,7 +32,7 @@ $format_pendaftaran_baru = "REG-" . $nomor_baru;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Pendaftaran | SMK Riyadhul Ulum</title>
+    <title>Dashboard SPMB | SMK Riyadhul Ulum</title>
     <link class="sub-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     
@@ -306,17 +306,17 @@ $format_pendaftaran_baru = "REG-" . $nomor_baru;
     <div class="dashboard-container">
         
         <header class="welcome-section">
-            <h1>Selamat Datang di Portal Pendaftaran</h1>
+            <h1>Selamat Datang di Portal SPMB</h1>
             <p>Silakan lengkapi formulir pendaftaran di bawah ini dengan data yang valid.</p>
         </header>
 
         <div class="stats-grid">
             <div class="card stat-card blue">
-                <h3>ID Pendaftar Anda</h3>
+                <h3>ID SPMB Anda</h3>
                 <p id="cardIdUser" class="stat-number-text"><?= $format_id_baru; ?></p>
             </div>
             <div class="card stat-card green">
-                <h3>No. Pendaftaran</h3>
+                <h3>No. SPMB</h3>
                 <p id="cardNoPendaftar" class="stat-number-text"><?= $format_pendaftaran_baru; ?></p>
             </div>
             <div class="card stat-card orange">
@@ -326,7 +326,7 @@ $format_pendaftaran_baru = "REG-" . $nomor_baru;
         </div>
 
         <main class="card form-section">
-            <h2><i class="fa-solid fa-pen-to-square"></i> Formulir Pendaftaran Baru</h2>
+            <h2><i class="fa-solid fa-pen-to-square"></i> Formulir SPMB Baru</h2>
             <hr>
             
             <form id="formPendaftaran" action="pendaftaran/data_df.php" method="POST">
@@ -337,7 +337,7 @@ $format_pendaftaran_baru = "REG-" . $nomor_baru;
                         <input type="text" id="id" name="id" value="<?= $format_id_baru; ?>" readonly style="background-color: #f1f2f6; cursor: not-allowed; border-color: #cbd5e1;">
                     </div>
                     <div class="form-group">
-                        <label for="no_pendaftar">No. Pendaftaran (Otomatis)</label>
+                        <label for="no_pendaftar">No. SPMB (Otomatis)</label>
                         <input type="text" id="no_pendaftar" name="no_pendaftar" value="<?= $format_pendaftaran_baru; ?>" readonly style="background-color: #f1f2f6; cursor: not-allowed; border-color: #cbd5e1;">
                     </div>
                 </div>

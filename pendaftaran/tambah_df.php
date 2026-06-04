@@ -235,7 +235,7 @@ if(isset($_POST['simpan'])){
 
         <div class="icon-header">📝</div>
         <h2>Data user baru</h2>
-        <p class="subtitle">Isi form berikut untuk membuat data pendaftaran</p>
+        <p class="subtitle">Isi form berikut untuk membuat data SPMB</p>
 
         <?php if(!empty($error)): ?>
             <div style="color: #b91c1c; background-color: #fef2f2; padding: 12px; border: 1px solid #f87171; margin-bottom: 20px; border-radius: 6px; font-size: 14px;">
@@ -251,7 +251,7 @@ if(isset($_POST['simpan'])){
                     <input type="text" name="id" value="<?= $format_id_baru; ?>" readonly>
                 </div>
                 <div class="form-group">
-                    <label>No. Pendaftaran (Otomatis)</label>
+                    <label>No. SPMB (Otomatis)</label>
                     <input type="text" name="no_pendaftar" value="<?= $format_pendaftaran_baru; ?>" readonly>
                 </div>
             </div>

@@ -120,7 +120,7 @@
 <body>
 
     <div class="welcome-container">
-        <div class="tagline">Website Pendaftaran</div>
+        <div class="tagline">Website SPMB</div>
         <h1>Selamat Datang di SMK Riyadlul 'Ulum</h1>
         <a href="dashbord.php" class="btn-enter">Klik di Sini untuk Masuk</a>
     </div>

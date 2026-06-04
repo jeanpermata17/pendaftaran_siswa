@@ -234,7 +234,7 @@ if (isset($_POST['update'])) {
 
         <div class="icon-header">📝</div>
         <h2>Edit Data User</h2>
-        <p class="subtitle">Perbarui form berikut untuk mengubah data pendaftaran</p>
+        <p class="subtitle">Perbarui form berikut untuk mengubah data SPMB</p>
 
         <?php if(!empty($error)): ?>
             <div style="color: #b91c1c; background-color: #fef2f2; padding: 12px; border: 1px solid #f87171; margin-bottom: 20px; border-radius: 6px; font-size: 14px;">
@@ -250,7 +250,7 @@ if (isset($_POST['update'])) {
                     <input type="text" name="id" value="ID-2026<?= sprintf('%02d', ($data['id'] % 100)); ?>" readonly>
                 </div>
                 <div class="form-group">
-                    <label>No. Pendaftaran</label>
+                    <label>No. SPMB</label>
                     <input type="text" name="no_pendaftar" value="<?= $data['no_pendaftar']; ?>" readonly>
                 </div>
             </div>
